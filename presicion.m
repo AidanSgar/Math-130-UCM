@@ -24,4 +24,4 @@ end
 possibleValues = sort(possibleValues);
 possibleValues = unique(possibleValues,'stable')
 
-plot(possibleValues)
+scatter(possibleValues,zeros(length(possibleValues)))
